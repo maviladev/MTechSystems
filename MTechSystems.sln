@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTechSystems", "MTechSystems\MTechSystems.csproj", "{65506A61-624E-41B4-A346-8F01E08A93AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTechSystems_NUnitTest", "MTechSystems_NUnitTest\MTechSystems_NUnitTest.csproj", "{09976101-3486-430C-9C63-227B839DA3EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65506A61-624E-41B4-A346-8F01E08A93AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65506A61-624E-41B4-A346-8F01E08A93AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65506A61-624E-41B4-A346-8F01E08A93AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65506A61-624E-41B4-A346-8F01E08A93AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09976101-3486-430C-9C63-227B839DA3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09976101-3486-430C-9C63-227B839DA3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09976101-3486-430C-9C63-227B839DA3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09976101-3486-430C-9C63-227B839DA3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EB4E8B5-BC54-4A2B-915A-B0195F46D4CF}
+	EndGlobalSection
+EndGlobal
