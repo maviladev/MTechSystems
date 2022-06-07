@@ -9,11 +9,11 @@ namespace MTechSystems.Abstractions
 	public interface IShoppingCart
 	{
 		DateTime PurchaseDate { get; }
-		List<IItem> ItemList { get; set; }
+		List<IItem> ItemList { get; }
 		double PurchaseTotal { get; set; }
 
 		void AddItem(IItem item);
-		bool DoPurchase();
+		void DoPurchase();
 		int GetItemListCount();
 		double GetPurchaseTotal();
 	}

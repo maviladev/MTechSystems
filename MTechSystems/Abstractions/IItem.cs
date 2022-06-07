@@ -11,5 +11,8 @@ namespace MTechSystems.Abstractions
 		string Name { get; set; }
 		int Amount { get; set; }
 		double Price { get; set; }
-	}
+		double Total { get; set; }
+        
+
+    }
 }

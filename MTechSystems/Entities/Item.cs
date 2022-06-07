@@ -7,10 +7,41 @@ using System.Threading.Tasks;
 
 namespace MTechSystems.Entities
 {
-	public class Item : IItem
-	{
-		public string Name { get; set; }
-		public int Amount { get; set; }
-		public double Price { get; set; }
-	}
+    public class Item : IItem
+    {
+        private int amount;
+        private double price;
+
+        public string Name { get; set; }
+        public int Amount
+        {
+            get => amount; 
+            set
+            {
+                amount = value;
+                UpdateTotal();
+            }
+        }
+        
+        public double Price
+        {
+            get => price;
+            set
+            {
+                price = value;
+                UpdateTotal();
+            }
+        }
+        public double Total { get; set; }
+
+        public Item()
+        {
+
+        }
+
+        private void UpdateTotal() 
+        {
+            Total = amount * price;
+        }
+    }
 }
